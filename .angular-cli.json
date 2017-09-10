@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "single-component"
+    "name": "single-file-component"
   },
   "apps": [
     {
@@ -55,6 +55,9 @@
   },
   "defaults": {
     "styleExt": "css",
-    "component": {}
+    "component": {
+      "inlineStyle":true,
+      "inlineTemplate":true
+    }
   }
 }
